@@ -5,6 +5,7 @@ const articleRoutes = require('./Routes/articleRoutes');
 const editorRoutes = require('./Routes/editorRoutes');
 const userRoutes = require('./Routes/userRoutes');
 
+// const app = express();
 const app = express();
 
 app.use(cors());
